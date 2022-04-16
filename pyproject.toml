@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "todolist_fastapi"
+version = "0.1.0"
+description = "A to-do list API using FastAPI framework."
+authors = ["Shizuku-Asami <xv.chronos@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.75.1"
+uvicorn = {extras = ["standard"], version = "^0.17.6"}
+pytest = "^7.1.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
